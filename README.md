@@ -10,3 +10,7 @@ This repository contains the Python simulation code used to validate the cryptog
 Ensure you have Python 3.8+ installed. Install the required dependencies using:
 ```bash
 pip install -r requirements.txt
+## Reproducing Empirical Results
+To reproduce the data found in **Table 4** of our manuscript, run the evaluation script:
+```bash
+python kat_eval.py
